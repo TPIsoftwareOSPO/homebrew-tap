@@ -3,7 +3,7 @@ cask "dgrkt" do
   name "dgrkt"
   desc "Designed to orchestrate and execute a series of commands based on a declarative YAML configuration file."
   homepage "https://github.com/TPIsoftwareOSPO/digiRocket"
-  version "1.3.4"
+  version "1.3.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "dgrkt" do
   on_macos do
     on_intel do
       url "https://github.com/TPIsoftwareOSPO/digiRocket/releases/download/v#{version}/digiRocket_#{version}_darwin_amd64.tar.gz"
-      sha256 "28baea606e247355fab41a4b37c2bc3fb76947c827abf049cccc5d38efa651d3"
+      sha256 "45022719e7fdbae000ec9595411486bebf4e28057df43f88e9cdd97cab935784"
     end
     on_arm do
       url "https://github.com/TPIsoftwareOSPO/digiRocket/releases/download/v#{version}/digiRocket_#{version}_darwin_arm64.tar.gz"
-      sha256 "de5003c92dbba8d7e6a752a227bed6ff06db496f665f3bcad98a5b3131bc114d"
+      sha256 "f3561c2d4d3195ab7fa26fd063b4fb740e83b177cc47137a99791170c244fdb7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/TPIsoftwareOSPO/digiRocket/releases/download/v#{version}/digiRocket_#{version}_linux_amd64.tar.gz"
-      sha256 "370516c6a94197e0a6a07e40bf95dd69b3a10505290b4f26c5cce80f80c2c17e"
+      sha256 "37fed38f03a7cfd95793d45e0291553b76eaea5f7fc501123d1fee01aa2cb124"
     end
     on_arm do
       url "https://github.com/TPIsoftwareOSPO/digiRocket/releases/download/v#{version}/digiRocket_#{version}_linux_arm64.tar.gz"
-      sha256 "3e383d0a91b016cf3ef2e66e2f7385f435486b19051c286d879f65d345daab78"
+      sha256 "4b41aeb5fb3411aecd74e2d03ffcb78caf0c57b4e2fadbf1a71f94b743302ab3"
     end
   end
 
