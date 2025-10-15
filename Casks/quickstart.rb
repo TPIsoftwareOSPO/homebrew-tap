@@ -3,7 +3,7 @@ cask "quickstart" do
   name "quickstart"
   desc "Designed to orchestrate and execute a series of commands based on a declarative YAML configuration file."
   homepage "https://github.com/TPIsoftwareOSPO/quickstart"
-  version "1.3.7"
+  version "1.3.8"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "quickstart" do
   on_macos do
     on_intel do
       url "https://github.com/TPIsoftwareOSPO/quickstart/releases/download/v#{version}/quickstart_#{version}_darwin_amd64.tar.gz"
-      sha256 "9e2d1710a7da478b88622986d3b2deb1ce75d9953d786bddd0992838587e8a5d"
+      sha256 "7644282aac4bda7448cfb0d58b3bac7575d6a2e6cbd859227498e32de9ccccdc"
     end
     on_arm do
       url "https://github.com/TPIsoftwareOSPO/quickstart/releases/download/v#{version}/quickstart_#{version}_darwin_arm64.tar.gz"
-      sha256 "5f84d63b6f6c1c004acc27caa76aad5a0fc234a2048d9d6de242496ff328ff21"
+      sha256 "749d66e9d46eb1b693771e0efd5627edc09b77cb7410d6f36412779cace3025d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/TPIsoftwareOSPO/quickstart/releases/download/v#{version}/quickstart_#{version}_linux_amd64.tar.gz"
-      sha256 "bc46a8ebd92a5bc1e705e0c3a8e26efbab73730ef7afb3e3a2d4df1e2141980d"
+      sha256 "972049ebac1b3c929b14c1610dcd8d2d84317bb43f8770b96244b08c03ebd9c4"
     end
     on_arm do
       url "https://github.com/TPIsoftwareOSPO/quickstart/releases/download/v#{version}/quickstart_#{version}_linux_arm64.tar.gz"
-      sha256 "586a43652d7b6f3ce2962b5bb64022a0bd6d4f3396272945aa96f7ba0557e58a"
+      sha256 "537fc658022ce629cd6a8e9b2e5b0f01d0d74a480b53ad31e03ab233f9ef4f3d"
     end
   end
 
